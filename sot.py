@@ -4,7 +4,7 @@ from telebot.types import Message
 
 # @Knowmoreee_bot
 
-token = ("7149700459:AAG1oJB2K1lNFt7YN4a7Wd2OzkuCrbQjmAc")
+token = ("")
 
 bot = telebot.TeleBot(token)
 @bot.message_handler(commands=["start"])
